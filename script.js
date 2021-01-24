@@ -31,4 +31,8 @@ for(let prop in codeMessage) {
     }
 }
 
-
+function formatMessage(code) {
+    const formatted = result.join('\n')
+    console.log(formatted)
+}
+formatMessage(result);
