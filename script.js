@@ -21,9 +21,14 @@ for(let prop in codeMessage) {
           result.push(`Hey, "${codeMessage[prop][optionIdx]}"`)
           break;
       case 'not working':
+          result.push(`Hey, "${codeMessage[prop][optionIdx]}"`)
           break;
       case 'gross':
+          result.push(`Hey, "${codeMessage[prop][optionIdx]}"`)
           break;
+      default:
+          result.push('Try again later')
+    }
 }
 
-     
+
